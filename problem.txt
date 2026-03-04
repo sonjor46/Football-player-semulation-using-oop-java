@@ -1,0 +1,15 @@
+
+
+
+Problem:
+--------
+
+Design a simple Java program to model football players using object-oriented programming. 
+1. There is an abstract class called FootballPlayer that stores basic information about a player, including their name, the number of goals they have scored, and their monthly salary. 
+This class also has one abstract method: calculateGoalRate(). 
+
+2. Two famous football players, Messi and Ronaldo, play in different leagues: LaLiga and the Premier League, respectively. 
+Your task is to create two subclasses, LaLigaPlayer and PremierLeaguePlayer, that inherit from FootballPlayer. 
+
+You should implement the calculateGoalRate() method in both subclasses using the formula: Goal Rate = goals ÷ matches played. 
+The monthly salary of each player should be treated as confidential. Finally, your program should print all the details for each player, including their name, league, goals scored, and goal rate.
